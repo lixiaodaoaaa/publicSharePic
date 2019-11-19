@@ -28,10 +28,6 @@
 
 点击 git 主页右上角的 + 创建 New repository；
 
-[外链图片转存失败(img-rEdiLVp3-1565792053166)(https://raw.githubusercontent.com/yefcion/PicData/master/img/20190311222018.png)]
-
-填写仓库信息，例如我就创建了一个 cloudimg 的仓库。这里注意，仓库得设置为 Public 因为后面通过客户端访问算是外部访问，因此无法访问 Private ，这样的话图片传上来之后只能存储不能显示。所以要设置为 Public。
-
 1.2 创建 token 并复制保存
 
 此时仓库已经建立，点击右上角头像，然后进入设置；
@@ -40,38 +36,6 @@
 
 创建 token；
 
-[外链图片转存失败(img-GF4AOgcd-1565792053171)(https://raw.githubusercontent.com/yefcion/PicData/master/img/20190311223317.png)]
-填 description（也是随心填），勾选复选框 repo ，接着到页面底部 Generate token 就完成了；
-
-[外链图片转存失败(img-EUGcjJXk-1565792053172)(https://raw.githubusercontent.com/yefcion/PicData/master/img/1552314907794.png)]
-
-然后复制生成一串字符 token，这个 token 只出现一次，所以要保存一下（我一般记在微信收藏）。
 
 2. PicGo 客户端配置
-2.1 下载&安装
 
-PicGo （目前 2.0.4）是一个开源的图床工具，非常优秀。可以到 git 上下载，但下载速度太慢，所以我放了一个百度云的链接，速度快很多。
-
-git地址：PicGo
-
-Win版下载链接：百度云 密码：PicG
-2.2 配置
-
-先上图
-
-    仓库名 即你的仓库名
-    分支名 默认 master
-    Token 就是刚刚复制的那一串字符
-    存储路径 这个可以填也可以不填，填了的话图片就上传到 git 中 data 这个文件夹
-    域名 https://raw.githubusercontent.com/yefcion/cloudimg/master这个要改一下 格式 https://raw.githubusercontent.com/[username]/[仓库名]/master
-
-然后点确定就可以了。
-
-然后关于上传的快捷键设置。默认的是 Mac 按键，推荐改成 Ctrl + alt +c。
-
-综上，操作完成。
-
-本方案唯一缺点，不能私人。但是考虑到 GitHub 上传的图在列表里没法预览，应该没人会闲着没事翻记录。
-————————————————
-版权声明：本文为CSDN博主「yefcion」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/yefcion/article/details/88412025
